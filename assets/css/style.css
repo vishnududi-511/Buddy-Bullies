@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --font-size-10: 10px;
+    --font-size-12: 12px;
+    --font-size-13: 13px;
+    --font-size-14: 14px;
+    --font-size-16: 16px;
+    --font-size-20: 20px;
+    --font-size-18: 18px;
+    --font-size-22: 22px;
+    --font-size-23: 23px;
+    --font-size-24: 24px;
+    --font-size-25: 25px;
+    --font-size-28: 28px;
+    --font-size-30: 30px;
+    --font-size-31: 31px;
+    --font-size-35: 35px;
+    --font-size-36: 36px;
+    --font-size-39: 39px;
+    --font-size-42: 42px;
+    --font-size-40: 40px;
+    --font-size-48: 48px;
+    --font-size-64: 64px;
+    --font-size-67: 67px;
+    --font-size-72: 72px;
+    --font-size-90: 90px;
+    --font-size-96: 96px;
+    --font-size-157: 157px;
+
+    --color-orange: #F06500;
+    --color-grey: #444444;
+    --color-light-grey: #F0F0F0;
+    --color-white: white;
+    --color-light-pink: #FFF7F4;
+    --color-red: #FF1300;
+    --color-black: black;
+    --color-yellow: #FFD600;
+    --color-green: #00A106;
+    --color-brownish: #70675F;
+    --text-bg: #565656;
+
+    --font-weight-xsm: 300;
+    --font-weight-sm: 400;
+    --font-weight-md: 500;
+    --font-weight-lg: 600;
+    --font-weight-xl: 700;
+    --font-weight-xxxl: 900;
+
+    --ff-poppins: "Poppins", sans-serif;
+
+}
+
