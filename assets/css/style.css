@@ -40,6 +40,7 @@
     --color-white: white;
     --color-darkblue: #001D49;
     --color-red: #FF1300;
+    --accordion-btn: #031227;
     --color-black: black;
     --body-bg: #000A1A;
     --sec_3cardbg: #031227;
@@ -354,6 +355,82 @@
     text-align: center;
 }
 
+.acordionheading {
+    font-family: Poppins;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 68px;
+    color: var(--color-white);
+    text-align: left;
+}
+
+.subheading_sec5 {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+    color: var(--color-white);
+    text-align: center;
+    max-width: 786px;
+}
+
+/* accordion */
+.accordion {
+    max-width: 830px;
+}
+
+.accordion_btn_font {
+    font-family: var(--ff-Montserrat);
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-md);
+    line-height: 22.69px;
+    text-align: left;
+    cursor: pointer;
+    color: var(--color-white);
+}
+
+.accordion-font1 {
+    font-family: var(--ff-Montserrat);
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-sm);
+    line-height: 24px;
+    text-align: left;
+    color: var(--color-white);
+    padding: 20px 30px 20px 30px;
+}
+
+.accordion_sign {
+    right: 4%;
+    top: 24%;
+    transform: translateY(16%);
+}
+
+.mb-26 {
+    margin-bottom: 26px;
+}
+
+.accordion_btn {
+    background-color: var(--accordion-btn);
+    padding: 20px 30px 20px 30px;
+    border-radius: 150px;
+}
+
+.arrow_acc {
+    transition: all 300ms linear;
+}
+
+.pt_40 {
+    padding-top: 40px;
+}
+
+.pt_50 {
+    padding-top: 50px;
+}
+
+.pt_35 {
+    padding-top: 35px;
+}
+
 @media (min-width:576px) {
     .section_2heading {
         font-family: Poppins;
@@ -391,6 +468,16 @@
         color: var(--color-white);
         line-height: 45px;
     }
+
+    /* accordion */
+    .accordion_btn_font {
+        font-family: var(--ff-Montserrat);
+        font-size: var(--font-size-18);
+        font-weight: var(--font-weight-md);
+        line-height: 32.69px;
+        text-align: left;
+        cursor: pointer;
+    }
 }
 
 @media (min-width:768px) {
@@ -401,6 +488,18 @@
         line-height: 30.15px;
         text-align: left;
         color: var(--color-white);
+    }
+
+    .pt_110_md {
+        padding-top: 110px;
+    }
+
+    .pt_140_md {
+        padding-top: 140px;
+    }
+
+    .pt_45_md {
+        padding-top: 45px;
     }
 
     /* timeline */
@@ -479,6 +578,18 @@
         color: var(--color-white);
         max-width: 406px;
     }
+
+    /* accordion */
+
+    .accordion_btn_font {
+        font-family: var(--ff-Montserrat);
+        font-size: var(--font-size-20) !important;
+        font-weight: var(--font-weight-md);
+        line-height: 24.69px;
+        text-align: left;
+        cursor: pointer;
+    }
+
 }
 
 @media (min-width:1200px) {
