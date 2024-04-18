@@ -80,6 +80,22 @@
     text-align: left;
     color: var(--color-white);
     text-decoration: none;
+    position: relative;
+}
+
+.nav_fonts::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    left: 0;
+    height: 3px;
+    background-color: var(--color-white);
+    bottom: 0;
+    transition: all 300ms linear;
+}
+
+.nav_fonts:hover::before {
+    width: 100% !important;
 }
 
 .logo {
