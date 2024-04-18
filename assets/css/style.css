@@ -68,10 +68,6 @@
     background-size: cover;
 }
 
-.container {
-    max-width: 1140px;
-}
-
 .gap-80 {
     gap: 80px;
 }
@@ -574,7 +570,7 @@
 }
 
 .timeline_left {
-    top: 0;
+    top: -50%;
     left: 0;
 }
 
@@ -597,7 +593,7 @@
 
     .accordian-right {
         right: 0;
-        top: -40%;
+        top: -10%;
     }
 
     .sec3_right {
