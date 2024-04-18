@@ -421,6 +421,10 @@
     padding: 20px 30px 20px 30px;
 }
 
+.accordion_btn {
+    cursor: pointer;
+}
+
 .accordion_sign {
     right: 4%;
     top: 24%;
