@@ -414,11 +414,12 @@
 .accordion-font1 {
     font-family: var(--ff-Montserrat);
     font-size: var(--font-size-16);
-    font-weight: var(--font-weight-sm);
+    font-weight: var(--font-weight-md);
     line-height: 24px;
     text-align: left;
     color: var(--color-white);
     padding: 20px 30px 20px 30px;
+    opacity: 70%;
 }
 
 .accordion_btn {
@@ -467,7 +468,6 @@
     font-family: var(--ff-poppins);
     font-size: var(--font-size-18);
     font-weight: var(--font-weight-sm);
-
     line-height: 24.48px;
     text-align: center;
     color: var(--color-white);
@@ -480,6 +480,12 @@
     line-height: 40.8px;
     text-align: center;
     color: var(--color-white);
+}
+
+.sec5box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /* footer */
@@ -523,7 +529,6 @@
     font-family: var(--ff-poppins);
     font-size: var(--font-size-16);
     font-weight: var(--font-weight-sm);
-
     line-height: 24px;
     text-align: left;
     color: white;
@@ -535,7 +540,6 @@
     font-family: var(--ff-poppins);
     font-size: var(--font-size-16);
     font-weight: var(--font-weight-sm);
-
     line-height: 24px;
     text-align: left;
     opacity: 60%;
@@ -559,7 +563,6 @@
     font-family: var(--ff-poppins);
     font-size: 14px;
     font-weight: var(--font-weight-sm);
-
     line-height: 19.04px;
     text-align: left;
     color: var(--color-white);
@@ -592,6 +595,14 @@
 .timeline_left {
     top: -50%;
     left: 0;
+}
+
+.pt_40 {
+    padding-top: 40px;
+}
+
+.mt_20 {
+    margin-top: 20px;
 }
 
 @media (min-width:1200px) {
@@ -663,6 +674,10 @@
 
     .sec3_card {
         padding: 39px;
+    }
+
+    .sm_pt_120 {
+        padding-top: 120px;
     }
 
     .roadmap {
