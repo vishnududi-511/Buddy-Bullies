@@ -47,3 +47,11 @@ accordion_boxes.forEach((items, index) => {
     }
   });
 });
+
+let navfonts = document.querySelector(".nav_items");
+
+navfonts.addEventListener("click", function () {
+  navitems.classList.remove("active");
+  body.classList.remove("overflow_hidden");
+  menu.classList.remove("position_fixed_menu");
+});
